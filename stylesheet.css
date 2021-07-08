@@ -1,0 +1,141 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header {
+  height: 90px;
+  background-color: #26d0c9;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  line-height: 90px;
+}
+
+.header-rogo {
+  font-size: 36px;
+  margin: 0 40px;
+}
+
+.menu-lists {
+  display: flex;
+}
+
+.menu-list {
+  margin: 0 20px;
+}
+
+.copy-container {
+  margin: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+span {
+  color: #ff4a4a;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.contents-container {
+  height: 500px;
+  margin: 100px 80px;
+}
+
+.contents-container h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.lessons-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.lesson {
+  margin-right: 40px;
+}
+
+.lesson img {
+  margin-bottom: 30px;
+}
+
+.lesson p {
+  font-size: 24px;
+}
+
+.form-container {
+  margin: 100px 80px;
+}
+
+.form-container h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.form-group {
+  margin-top: 50px;
+}
+
+.form {
+  margin: 10px 0 30px;
+}
+
+.form-box {
+  width: 400px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #dee7ec;
+  font-size: 18px;
+}
+
+.submit-btn {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+footer {
+  background-color: #2f5167;
+  color: #fff;
+}
+
+.footer-container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left p {
+  font-size: 32px;
+}
+
+.footer-right li {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
